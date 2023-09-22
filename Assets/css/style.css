@@ -1,0 +1,350 @@
+@import url('./reset.css');
+@import url('./font.css');
+
+body {
+    background-color: #b92d38;
+}
+
+header {
+    width: 700px;
+    height: auto;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    padding: 30px;
+    background-color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+header h1:hover {
+    font-family: 'Black Ops One', Arial, sans-serif;
+}
+
+header h1 {
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: 'Quicksand', Arial, sans-serif;
+    word-spacing: 10px;
+    letter-spacing: 10px;
+    margin-left: 130px;
+    color: rgb(249, 143, 65);
+}
+
+.main-cover {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    height: auto;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-first {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(249, 143, 65);
+    width: 700px;
+    height: 230px;
+}
+
+.section-first h2 {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 75px;
+    color: white;
+    font-family: 'Black Ops One', Arial, sans-serif;
+}
+
+.section-first span {
+    font-size: 18px;
+    text-align: center;
+    color: bisque;
+    font-family: 'Dancing Script', Arial, sans-serif;
+}
+
+.section-second,
+.section-fourth {
+    display: flex;
+}
+
+.box-first,
+.box-fourth-first {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    margin-left: 50px;
+    gap: 20px;
+    margin-top: 60px;
+}
+
+.box-fourth-first {
+    margin-left: 0px;
+    margin-top: 0px;
+    padding: 50px 50px;
+}
+
+.box-first h3,
+.section-third h3,
+.box-fourth-first h3,
+.small-center h4 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #b92d38;
+    font-family: 'Black Ops One', Arial, sans-serif;
+    font-size: 35px;
+    line-height: 40px;
+    text-align: left;
+}
+
+.box-first span,
+.section-third span,
+.box-fourth-first span,
+.small-center span,
+.double-first-section span,
+.double-second-section span {
+    color: #666666;
+    font-family: 'Dancing Script', Arial, sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: left;
+    font-weight: normal;
+}
+
+.box-first p,
+.section-third p,
+.box-fourth-first p,
+.double-first-section p,
+.double-second-section p {
+    width: 240px;
+    color: #777777;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.box-first a,
+.section-third a,
+.box-fourth-first a,
+.double-first-section a,
+.double-second-section a,
+.section-website a {
+    width: 160px;
+    height: 50px;
+    background: #f98f41;
+    color: #ffffff;
+    font-family: 'Roboto Slab', Georgia, serif;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    font-weight: bold;
+    padding: 14px 20px;
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+
+.box-second img {
+    width: 300px;
+    height: 400px;
+}
+
+.center-shaurma img {
+    width: 700px;
+}
+
+.section-third {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.section-third p {
+    width: 500px;
+    text-align: center;
+}
+
+.section-third a {
+    margin-bottom: 70px;
+}
+
+.box-fourth-first {
+    background-color: rgb(243, 239, 239);
+}
+
+.box-fourth img {
+    width: 350px;
+    height: 510px;
+}
+
+.small-center {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+.double-section {
+    display: flex;
+    padding: 10px 30px;
+    gap: 35px;
+}
+
+.double-first-section,
+.double-second-section {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.double-first-section img,
+.double-second-section img {
+    width: 300px;
+    height: 300px;
+}
+
+.double-first-h4,
+.double-second-section-h4 {
+    font-size: 25px;
+    color: #b92d38;
+    font-family: 'Black Ops One', Arial, sans-serif;
+    line-height: 40px;
+}
+
+.double-first-section p {
+    width: 280px;
+}
+
+.section-website {
+    background-color: rgb(249, 143, 65);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-website h5 {
+    font-family: 'Black Ops One', Arial, sans-serif;
+    font-size: 35px;
+    line-height: 40px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 80px;
+}
+
+.section-website span {
+    font-family: 'Dancing Script', Arial, sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #ffffff;
+}
+
+.section-website p,
+.total-box p {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: #ffffff;
+    width: 400px;
+}
+
+.section-website a {
+    width: 160px;
+    height: 50px;
+    font-family: 'Roboto Slab', Georgia, serif;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    font-weight: bold;
+    padding: 14px 20px;
+    text-transform: uppercase;
+    background: #ffffff;
+    color: #f98f41;
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+
+footer {
+    display: flex;
+    padding: 40px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+}
+
+.total-box {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.total-box h5 {
+    color: #b92d38;
+    font-family: 'Black Ops One', Arial, sans-serif;
+    font-size: 35px;
+    line-height: 40px;
+    text-align: left;
+}
+
+.total-box p {
+    color: #999999;
+    width: 230px;
+    text-align: left;
+}
+
+.social {
+    display: flex;
+    gap: 10px;
+    margin-top: 50px;
+}
+
+.facebook,
+.instagram,
+.twitter,
+.linkedin {
+    background-color: #f98f41;
+    border-radius: 40px;
+    width: 50px;
+    height: 50px;
+}
+
+.facebook a i,
+.instagram a i,
+.twitter a i,
+.linkedin a i {
+    margin-top: 24px;
+    margin-left: 14px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+    margin-top: 50px;
+    gap: 15px;
+}
+
+.contact span {
+    color: #999999;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.contact span a {
+    color: #999999;
+}
